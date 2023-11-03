@@ -1,0 +1,41 @@
+section {
+    display: flex;
+    width: 800px;
+    height: 400px;
+    
+}
+
+section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: 0.5s ease;
+    border-style: double;
+    border-width: 10px;
+}
+
+section img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+body {
+    background: rgb(143, 126, 120);
+    background: radial-gradient(circle, rgba(143, 126, 120, 0.6474964985994398) 0%, rgba(10, 6, 3, 0.3337710084033614) 100%);
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    text-decoration:underline;
+    }
